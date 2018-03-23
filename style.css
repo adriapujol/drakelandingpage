@@ -1,0 +1,44 @@
+body, html {
+	height: 100%;
+}
+
+header.bg {
+	background-image: url("drizzy3.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+hr {
+	
+	border-width: 3px;
+	border-color: #D84242;
+	
+}
+
+
+.faded {
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 500px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin-bottom: 10px;
+	padding: 1rem 2rem;
+	
+}
+
+.btn-outline-dark {
+	background-color: #D84242;
+	border-color: #D84242;
+}
+
+.btn-outline-dark:hover {
+	background-color: #6D1B1B;
+	border-color: #6D1B1B;
+	cursor: pointer;
+}
